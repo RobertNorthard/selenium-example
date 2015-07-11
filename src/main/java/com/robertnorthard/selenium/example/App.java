@@ -18,7 +18,7 @@ public class App  {
 		// This tells our web driver to navigate to google.com
 		driver.get("http://www.google.com");
 
-		// This tells our web driver to look for the elemnt with the name ‘q’ on the current webpage (‘google.com’)
+		// This tells our web driver to look for the element with the name ‘q’ on the current webpage (‘google.com’)
 		WebElement element = driver.findElement(By.name("q"));
 
 		// This tells the element object to enter the word ‘selenium’ in the Google search bar and submit the form. 
